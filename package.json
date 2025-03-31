@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "enum-like",
+  "version": "1.0.0",
+  "description": "A TypeScript library for creating enum-like structures, designed for those who want to avoid using native TypeScript enums.",
+  "scripts": {
+    "format": "biome format --write",
+    "lint": "biome lint",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": ["enum", "typescript", "enum-like", "ts-enum"],
+  "author": "jwham",
+  "license": "GPL-3.0-only",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@vitest/coverage-istanbul": "3.1.1",
+    "eslint": "^9.23.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}
